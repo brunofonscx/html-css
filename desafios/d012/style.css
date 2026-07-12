@@ -1,0 +1,68 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+    --fonte-sriracha: '';
+    --fonte-passion-one: ;
+    --fonte-z: ;
+
+    --color-a: ;
+    --color-b: ;
+    --color-c: ;
+    --color-d: ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    font-variant: small-caps;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 40px;
+}
+section.imagem p {
+    background-color: #00000017;
+    width: 300px;
+}
+section.normal {
+    background-color: white;
+    color: #000;
+}
+section.imagem {
+    background-color: #353535;
+    color: #fff;
+}
