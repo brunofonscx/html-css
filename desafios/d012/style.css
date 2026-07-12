@@ -80,15 +80,14 @@ section.normal {
 section.imagem {
     background-color: #353535;
     color: #fff;
-    background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
-    background-position: right, top;
     background-size: cover;
     background-attachment: fixed;
 }
 
 section.imagem#img1 {
     background-image: url(imagens/background001.jpg);
+    background-position: right center;
 }
 
 section.imagem#img2 {
