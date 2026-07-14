@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login para a BG</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            text-align: center;
+            background-color: rgb(24, 24, 24);
+            color: white;
+        }
+        h1 {
+            padding-top:  50px;
+            margin-bottom: 20px;
+        }
+        div {
+            margin-bottom: 30px;
+        }
+        form {
+            background-color: rgb(104, 0, 0);
+            max-width: 500px;
+            margin: 0 auto;
+            font-size: 1.5em;
+            border-radius: 10px;
+            padding-bottom: 30px;
+            margin-top: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+            
+        }
+        .text {
+            display: block;
+        }
+        .text label {
+            display: block;
+            text-decoration: none;
+        }
+        .text input {
+            text-indent: 1.2em;
+            font-size: 1em;
+            border-radius: 20px;
+            border: 0;
+            margin-top: 20px;
+            height: 50px;
+            width: 400px;
+            background-color:  rgb(255, 255, 255);
+        }
+         .text input:focus {
+                background-color: transparent;
+                color: white;
+                border-color: transparent;
+                transition-duration: 300ms;
+            }
+         .text input:hover {
+                           background-color: transparent;
+                color: white;
+                border: none;
+                transition-duration: 300ms;
+                border: 1px solid #fff;
+         }
+        .submit input {
+            font-size: 0.7em;
+            height: 40px;
+            width: 200px;
+            text-decoration: none;
+            border: 0;
+            border-radius: 5px;
+
+            }
+            .submit input:hover {
+                transition-duration: 200ms;
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+
+            }
+        
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+         <h1>Login</h1>
+        <div class="text">
+            <label for="iemail" >Emai:</label>
+            <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="exemple@gmail.com">
+        </div>
+        <div class="text">
+            <label for="ipass">Senha:</label>
+            <input type="password" name="pass" id="ipass" minlength="8" required placeholder="Digite a senha">
+        </div>
+        <div class="submit">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
