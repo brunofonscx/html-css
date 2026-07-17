@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <p>
+        <label for="inum">Numero</label>
+        <input type="range" name="num" id="inum" min="1" max="3" value="1" oninput="valor()">
+        <output id="ival">5</output>
+    </p>
+    <script>
+        
+        function valor(){
+            var valor = Number.inum.value
+            var out = document.getElementById('ival')
+            
+            if ( valor == 1 ) {
+                out.innerHTML = 'Pouco Satisfeito'
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>
