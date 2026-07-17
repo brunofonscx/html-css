@@ -1,2 +1,7 @@
 @charset 'UFT-8';
     /* Aparelho EM pe (portratit)*/
+
+body {
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: left bottom;
+}
