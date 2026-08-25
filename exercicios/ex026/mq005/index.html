@@ -18,10 +18,17 @@
       </i>
       <menu id="imenu">
         <ul>
-          <li><a href="#">Opcao 1</a></li>
-          <li><a href="#">Opcao 2</a></li>
-          <li><a href="#">Opcao 3</a></li>
-          <li><a href="#">Opcao 4</a></li>
+          <li class="opt">
+            <a
+              href="https://www.youtube.com/"
+              onclick="clickOptions()"
+              target="_blank"
+              >Opcao 1</a
+            >
+          </li>
+          <li class="opt"><a href="#" onclick="clickOptions()">Opcao 2</a></li>
+          <li class="opt"><a href="#" onclick="clickOptions()">Opcao 3</a></li>
+          <li class="opt"><a href="#" onclick="clickOptions()">Opcao 4</a></li>
         </ul>
       </menu>
     </header>
@@ -89,13 +96,17 @@
       </article>
     </main>
     <script>
+      let menu = document.getElementById("imenu");
+
       function clickMenu() {
-        let menu = document.getElementById("imenu");
         if (menu.style.display == "block") {
           menu.style.display = "none";
         } else {
           menu.style.display = "block";
         }
+      }
+      function clickOptions() {
+        menu.style.display = "none";
       }
     </script>
   </body>
